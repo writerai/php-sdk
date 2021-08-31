@@ -1,0 +1,25 @@
+{
+  "name": "qordoba/qordoba-php",
+  "version": "1.0.7",
+  "autoload": {
+    "psr-0": {
+      "Qordoba": "src/",
+      "Qordoba\\Tests": "tests/"
+    },
+    "files": [
+      "src/Qordoba/Helpers.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^5.4 || 7.*",
+    "guzzlehttp/guzzle": "~6.0",
+    "respect/validation": "~1.1"
+  },
+  "require-dev": {
+    "php": "^5.4 || 7.*",
+    "phpunit/phpunit": "6.2",
+    "squizlabs/php_codesniffer": "3.*",
+    "fzaninotto/faker": "^1.7"
+  }
+}
